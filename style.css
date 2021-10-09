@@ -14,10 +14,10 @@ body {
 h1 {
     font-size: 70px;
     letter-spacing: 18px;
-    background: #1C1C1C;
-    background: -webkit-radial-gradient(circle farthest-corner at center center, #1C1C1C 0%, #F7F7F7 100%);
-    background: -moz-radial-gradient(circle farthest-corner at center center, #1C1C1C 0%, #F7F7F7 100%);
-    background: radial-gradient(circle farthest-corner at center center, #1C1C1C 0%, #F7F7F7 100%);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000 0%, #343434 100%);
+    background: -moz-linear-gradient(to right, #000000 0%, #343434 100%);
+    background: linear-gradient(to right, #000000 0%, #343434 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: default;
@@ -32,7 +32,7 @@ h3 {
     border: 1px dashed rgba(28, 28, 28, 0.7);
     background-color: rgba(28, 28, 28, 0.7);
     color: #f7f7f7;
-    max-width: 380px;
+    max-width: 420px;
     width: 100%;
     margin: 0 auto;
     letter-spacing: 5px;
@@ -50,18 +50,20 @@ h3:hover {
 
 footer p {
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
     cursor: default;
     font-family: "Gloria Hallelujah", cursive;
     letter-spacing: 3px;
-    margin: 30px 0 5px 0;
+    margin: 30px auto 5px;
     color: #f7f7f7;
+    max-width: 300px;
+    width: 100%;
   }
   
   footer p:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
-    text-decoration: underline;
+    color: red;
   }
 
   .icons {
@@ -75,5 +77,22 @@ footer p {
   }
 
   #linkedin:hover, #github:hover, #discord:hover, #codepen:hover, #mail:hover {
-      color: #f7f7f7;
+      color: red;
+  }
+
+    /* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f7f7f7;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #343434;
+    border-radius: 20px;
   }
