@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+body {
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(28, 28, 28, 0.5) 0%, rgba(247, 247, 247, 0.5) 100%), url("https://source.unsplash.com/-TnlLhj46iQ");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Unica One', cursive;
+}
+
+h1 {
+    font-size: 70px;
+    letter-spacing: 18px;
+    background: #1C1C1C;
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #1C1C1C 0%, #F7F7F7 100%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #1C1C1C 0%, #F7F7F7 100%);
+    background: radial-gradient(circle farthest-corner at center center, #1C1C1C 0%, #F7F7F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: default;
+}
+
+h1:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
+h3 {
+    border: 1px dashed rgba(28, 28, 28, 0.7);
+    background-color: rgba(28, 28, 28, 0.7);
+    color: #f7f7f7;
+    max-width: 380px;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 5px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 0 20px 0 20px;
+    cursor: default;
+}
+
+h3:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color: red;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    cursor: default;
+    font-family: "Gloria Hallelujah", cursive;
+    letter-spacing: 3px;
+    margin: 30px 0 5px 0;
+    color: #f7f7f7;
+  }
+  
+  footer p:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    text-decoration: underline;
+  }
+
+  .icons {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  #linkedin, #github, #discord, #codepen, #mail {
+      color: #f7f7f7;
+      padding: 0 10px;
+  }
+
+  #linkedin:hover, #github:hover, #discord:hover, #codepen:hover, #mail:hover {
+      color: #f7f7f7;
+  }
